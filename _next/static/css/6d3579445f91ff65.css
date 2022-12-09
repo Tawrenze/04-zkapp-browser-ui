@@ -1,0 +1,818 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.Home_container__bCOhY {
+  padding: 2rem;
+  /* background-color: #07031B; */
+  width: 100%;
+  height: 55vw;
+  position: relative;
+  /* background: linear-gradient(135deg, rgba(241,151,244,1) 0%, rgba(91,106,170,1) 50%, rgba(43,58,99,1) 100%);  */
+	background-color: #CDFFED;
+}
+
+.Home_main__nLjiQ {
+  /* min-height: 100vh; */
+  /* padding:  0; */
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+	/* overflow: hidden; */
+  
+}
+
+.Home_footer____T7K {
+  display: flex;
+}
+
+/* .footerbg {
+	display: block;
+	background-image: url("../images/footer.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 520px;
+	height: 145px;
+	position: absolute;
+	left: 200px;
+	top: 560px;
+} */
+
+.Home_blank__VvP8P {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/footer.663488b0.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 520px;
+	height: 145px;
+	position: absolute;
+	left: 200px;
+	top: 600px;
+}
+
+.Home_title__T09hD a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.Home_title__T09hD a:hover,
+.Home_title__T09hD a:focus,
+.Home_title__T09hD a:active {
+  text-decoration: underline;
+}
+
+.Home_title__T09hD {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.Home_title__T09hD,
+.Home_description__41Owk {
+  text-align: center;
+}
+
+.Home_description__41Owk {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.Home_code__suPER {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.Home_grid__GxQ85 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.Home_card___LpL1 {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.Home_card___LpL1:hover,
+.Home_card___LpL1:focus,
+.Home_card___LpL1:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.Home_card___LpL1 h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.Home_card___LpL1 p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.Home_logo__27_tb {
+	display: flex;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/icon.ec5f8ed8.png);
+	height: 50px;
+	width: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-items: center;
+	justify-content: center;
+	margin-left: 85px;
+
+}
+
+.Home_homepage__o_ei3 {
+	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	width: 900px;
+	height: 600px;
+	transform: scale(1);
+}
+
+.Home_homepageImg__fcRDd {
+	display: block;
+	display: flex;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/homepageImg.8beac3c5.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 781px;
+	height: 553px;
+}
+
+.Home_banner__WnS5R {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/banner.058f751d.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 450px;
+    height: 124px;
+    position: absolute;
+    left: 107px;
+    top: 234px
+}
+
+/* .banner2 {
+	display: block;
+	background-image: url("../images/banner2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 280px;
+	height: 102px;
+	position: absolute;
+	left: 310px;
+	top: 250px;
+} */
+
+.Home_connectBtn__q4_OB {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/connectBtn1.67751f7b.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 166px;
+	height: 55px;
+	position: absolute;
+	left: 371px;
+	top: 458px;
+	cursor: pointer;
+}
+
+.Home_connectBtn__q4_OB:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/connectBtn2.a5cdbf17.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 166px;
+	height: 55px;
+	position: absolute;
+	left: 371px;
+	top: 458px;
+	/* cursor: pointer; */
+}
+
+.Home_connectBtn__q4_OB:active {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/connectBtn3.c39d962e.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 166px;
+	height: 55px;
+	position: absolute;
+	left: 371px;
+	top: 458px;
+}
+
+.Home_loadingBtn__vAScy {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/loadingBtn.2cbdaa8c.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 319px;
+	height: 200px;
+	position: absolute;
+	left: 304px;
+	top: 372px;
+}
+
+.Home_loading__IsZ5F {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/loading.d6529420.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 602px;
+	height: 365px;
+	position: absolute;
+	left: 144px;
+	top: 85px;
+}
+
+.Home_getLoading__Ml8Nf {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/getLoading.710b09f7.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 380px;
+	height: 300px;
+	position: absolute;
+	left: 183px;
+	top: 80px;
+}
+
+.Home_sendLoading__Zkd01 {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/getLoading.710b09f7.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 380px;
+	height: 300px;
+	position: absolute;
+	left: 193px;
+	top: 80px;
+}
+
+/* .sendCheck {
+	display: block;
+	background-image: url("../images/check.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 116px;
+	height: 115px;
+	position: absolute;
+	left: 390px;
+	top: 290px;
+} */
+
+.Home_sendDone__abENy {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/senddone.23a9281c.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 236px;
+	height: 189px;
+	position: absolute;
+	left: 340px;
+	top: 171px;
+}
+
+.Home_caution__VEpHP {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/caution.c83a01cf.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 180px;
+	height: 155px;
+	position: absolute;
+	left: 370px;
+	top: 120px;
+}
+
+.Home_succes__k1IzW {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/succes.5e872ea4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	left: 348px;
+	top: 73px;
+}
+
+.Home_statusTxt__dVex8 {
+	display: block;
+	position: absolute;
+	left: 300px;
+	top: 392px;
+	color: #fff;
+	font-size: 17px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.Home_statusSendTxt___A48X {
+	display: block;
+	position: absolute;
+	left: 330px;
+	top: 356px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.Home_walletLink__QYgFg {
+	border: 2px solid black;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: red;
+	display: block;
+	position: absolute;
+	left: 379px;
+	top: 370px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.Home_walletTxt__aVJtU {
+	display: block;
+	position: absolute;
+	left: 210px;
+	top: 350px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.Home_faucetTxt__R0HSg {
+	display: block;
+	position: absolute;
+	left: 215px;
+	top: 350px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.Home_faucetHere__TRzkn {
+	display: block;
+	position: absolute;
+	left: 390px;
+	top: 370px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.Home_backNoAccount__s1McX {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/backBtn1.29dbb141.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50px;
+	height: 52px;
+	position: absolute;
+	left: 215px;
+	top: 110px;
+}
+
+.Home_backNoAccount__s1McX:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/backBtn2.212c2793.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50px;
+	height: 52px;
+	position: absolute;
+	left: 215px;
+	top: 110px;
+}
+
+.Home_backNoWallet__IBr_n {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/backBtn1.29dbb141.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50px;
+	height: 52px;
+	position: absolute;
+	left: 215px;
+	top: 110px;
+}
+
+.Home_backNoWallet__IBr_n:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/backBtn2.212c2793.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50px;
+	height: 52px;
+	position: absolute;
+	left: 215px;
+	top: 110px;
+}
+
+.Home_sendBtn__F6hw6 {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/sendBtn1.ea1c68ee.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 158px;
+	height: 53px;
+	position: absolute;
+	left: 270px;
+	top: 488px;
+	cursor: pointer;
+}
+
+.Home_sendBtn__F6hw6:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/sendBtn2.5bebd09a.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 158px;
+	height: 53px;
+	position: absolute;
+	left: 270px;
+	top: 488px;
+}
+
+.Home_sendBtn__F6hw6:active {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/sendBtn3.dc68f56b.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 158px;
+	height: 53px;
+	position: absolute;
+	left: 270px;
+	top: 488px;
+}
+
+.Home_sendBtnDisable__6VyTK {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/sendBtn3.dc68f56b.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 158px;
+	height: 53px;
+	position: absolute;
+	left: 270px;
+	top: 488px;
+}
+
+.Home_getBtn__h_3sY {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/getBtn1.0d262269.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 158px;
+	height: 53px;
+	position: absolute;
+	left: 524px;
+	top: 490px;
+	cursor: pointer;
+}
+
+.Home_getBtn__h_3sY:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/getBtn2.dfbd168a.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 158px;
+	height: 53px;
+	position: absolute;
+	left: 524px;
+	top: 490px;
+}
+
+.Home_getBtn__h_3sY:active {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/getBtn3.5ffded12.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 158px;
+	height: 53px;
+	position: absolute;
+	left: 524px;
+	top: 490px;
+}
+
+.Home_getBtnDisable__ASdt7 {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/getBtn3.5ffded12.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 158px;
+	height: 53px;
+	position: absolute;
+	left: 524px;
+	top: 490px;
+}
+
+.Home_txtState__XfTmO {
+	display: block;
+	position: absolute;
+	left: 330px;
+	top: 169px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.Home_numState__RWB8u {
+	display: block;
+	position: absolute;
+	left: 360px;
+	top: 171px;
+	color: white;
+	font-size: 80px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.Home_txtAddrs__0j0LW {
+	display: block;
+	position: absolute;
+	left: 265px;
+	top: 355px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.Home_addrs__ciNE1 {
+	display: block;
+	position: absolute;
+	left: 180px;
+	top: 353px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.Home_getscreen__MZw5Y{
+	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	width: 900px;
+	height: 600px;
+}
+
+.Home_getscreenBlack__Krl3p {
+	display: block;
+	display: flex;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/black.96836c7e.png);
+	background-size: repeat;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.5;
+ transform: scale(1.5); /* you can change the value also */
+   transform-origin: center;
+}
+
+.Home_getscreenImg__WMr9D {
+	display: block;
+	display: flex;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/screen.0ec70aec.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 545px;
+	height: 435px;
+	position: absolute;
+	left: 180px;
+	top: 16px;
+}
+
+.Home_sendscreen__P9tsM{
+	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	width: 900px;
+	height: 600px;
+}
+
+/* .sendscreenBlack {
+	display: block;
+	display: flex;
+	background-image: url("../images/black.png");
+	background-size: repeat;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.5;
+	-webkit-transform: scale(1.5);
+    transform: scale(1.5); /* you can change the value also */
+   /* -webkit-transform-origin: center;
+    transform-origin: center;
+} */ 
+
+.Home_sendscreenImg__5SKtV {
+	display: block;
+	display: flex;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/send.1f86e715.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 545px;
+	height: 435px;
+	position: absolute;
+	left: 180px;
+	top: 16px;
+}
+
+
+.Home_closeGet__qG2td {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/closeBtn1.3e9c3b8f.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 640px;
+	top: 52px;
+	cursor: pointer;
+}
+
+.Home_closeGet__qG2td:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/closeBtn2.3e9c3b8f.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 43px;
+	height: 43px;
+	position: absolute;
+	left: 640px;
+	top: 52px;
+}
+
+.Home_closeSend__b_1LB {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/closeBtn1.3e9c3b8f.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 640px;
+	top: 52px;
+	cursor: pointer;
+}
+
+.Home_closeSend__b_1LB:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/closeBtn2.3e9c3b8f.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 43px;
+	height: 43px;
+	position: absolute;
+	left: 640px;
+	top: 52px;
+}
+
+
+.Home_dcIcon__DDy4R {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/dcicon.e5abd137.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	left: 167px;
+	top: 493px;
+}
+
+/* .fbIcon {
+	display: block;
+	background-image: url("../images/fbicon1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 90px;
+	height: 70px;
+	position: absolute;
+	left: 480px;
+	top: 600px;
+} */
+
+.Home_gitIcon__L23x5 {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/giticon.ea717301.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	left: 99px;
+	top: 492px;
+	cursor: pointer;
+}
+
+
+/* @media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+  }
+   
+  
+} */
+ 
